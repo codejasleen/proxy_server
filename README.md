@@ -38,3 +38,13 @@ AWS IP address
 ## Deployment
 
 Running on AWS EC2 Ubuntu using systemd service.
+
+## Live Deployment
+
+AWS Proxy running at:
+
+http://13.60.22.133:8080
+
+Test:
+
+curl -x http://13.60.22.133:8080 https://api.ipify.org
